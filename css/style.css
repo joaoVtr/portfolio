@@ -1,0 +1,23 @@
+body{
+    color: white;
+}
+
+header{
+    background-color: rgb(45, 44, 44);
+}
+
+header a:link{
+    font-weight: bold;
+    color:white;
+}
+
+header a:hover{
+    color:rgb(118, 171, 100);
+}
+
+.main-data{
+    height: 600px;
+    background-image: url("../img/bg-2-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
