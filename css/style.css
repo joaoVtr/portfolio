@@ -62,25 +62,19 @@ header a:hover{
     width: 170px;
     font-size: 30px;
 }
-.laravel{
-    background-image: url(../img/laravel-5-2.jpg);
+.div-frameworks{
     background-size: 170px 170px;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 25px;
+}
+.laravel{
+    background-image: url(../img/laravel-5-2.jpg);
 }
 .node{
     background-image: url(../img/node-3.png);
-    background-size: 170px 170px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 25px;
 }
 .bootstrap{
     background-image: url(../img/bstrap-5-1.png);
-    background-size: 170px 170px;
-    background-repeat: no-repeat;
-    background-position: center;
-    border-radius: 25px;
 }
 /* --  */
