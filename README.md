@@ -8,6 +8,6 @@
 ## Feel free to contact (or play chess) on :
 - [Instagram](https://www.instagram.com/joao97vtr/)
 - [Facebook](https://www.facebook.com/profile.php?id=100001841830075)
-- [Linkedin](www.linkedin.com/in/JJMenezes-perfil)
+- [Linkedin](https://www.linkedin.com/in/JJMenezes-perfil)
 - [Lichess](https://lichess.org/@/joaoVMenezes)
     
