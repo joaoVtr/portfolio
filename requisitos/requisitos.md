@@ -28,6 +28,7 @@
 
  1. [ ] Usar o inglês como padrão 
  2. [ ] Opção para português
+ 3. [ ] Criar logo
 
 ---
 
