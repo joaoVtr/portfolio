@@ -31,19 +31,21 @@ header a:hover{
     width: 700px;
     margin: 0 auto;
     margin-top: 70px;
-
 }
 
 .titulo{
     font-size: 48px;
     font-family: Noto Sans, sans-serif;
+/*    
+    font-family: zillaslab, palatino, "Palatino Linotype", serif ; */
     font-weight: bold;
 }
 
 .subtitulo{
     color:#C7CACC;
     font-size: 24px;
-    font-family: ebima;
+    font-family: zillaslab;
+    font-weight: normal;
 }
 
 /* Frameworks na tela principal */
@@ -78,3 +80,117 @@ header a:hover{
     background-image: url(../img/bstrap-5-1.png);
 }
 /* --  */
+
+
+/* Section information one */
+.info-sec{
+    background-color: rgb(89, 61, 61);
+    height: 500px;
+    display: flex;
+}
+
+.about{
+    text-align: center;
+    height: 200px;
+    width: 700px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.about-main{
+    width: 580px;
+    font-size: 36px;
+    font-family: Noto Sans, sans-serif;
+    line-height: 1.1;
+    margin: 0 auto;
+}
+
+.about-sub{
+    color:#E8D9D9;
+    width: 440px;
+    font-size: 18px;
+    font-family: ebrima;
+    line-height: 1.5;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+/* -- */
+
+/* empty section */
+.skills-sec{
+    height: 470px;
+    background-color: rgb(45, 44, 44);
+    display: flex;
+    position: relative;
+}
+
+.skills-bg{
+    height: 640px;
+    width: 1030px;
+    margin: 0 auto;
+    background-color:rgba(255, 255, 255, 0.12);
+    position: absolute;
+    z-index: 1;
+    left: 0px;
+    right: 0px;
+    top:-80px;
+    bottom: 0px;
+}
+
+.skills-blur{
+    position: relative;
+    filter: blur(15px);
+    width: 1030px;
+    height: 500px;
+    top: -15px;
+    margin: 0 auto;
+    background-color: rgba(45, 44, 44, 0.801);
+    /* background-color:red; */
+}
+
+.skills-info h2{
+    color:#E8D9D9;
+    font-family: arial;
+    font-weight: bold;
+    text-align: center;
+    font-size: 38px;
+    margin-top: 15px;
+}
+
+    /* Skills Grid  */
+.skills-grid{
+    display: grid;
+    width: auto;
+    height: auto;
+    margin-top: 45px;
+    justify-items: center;
+    grid-template-columns: 330px 330px 330px;
+    grid-column-gap: 20px;
+    grid-row-gap:20px;
+}
+.skills-item h3{
+    font-size:24px;
+    font-weight: bold;
+}
+.skills-item {
+    font-family: ebrima;
+    text-align: center;
+    line-height: 1.3;
+    font-size: 18px;
+    padding: 20px;
+    width: 230px;
+}
+
+    /* -- */
+
+/* -- */
+
+/* Footer */
+.footer{
+    height: 270px;
+    background-color: rgb(89, 61, 61);
+}
+/*  */
+
+
+
