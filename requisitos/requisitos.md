@@ -1,11 +1,11 @@
 # Requisitos
-
+1. [ ] Mudar a ocorrência de portifolio para portfolio
 ## Requisitos Visuais
 1. [ ] Informações pessoais
    1. [ ] Nome
    2. [ ] Telefone
 2. [ ] Objetivos
-3. [ ] Link para GitHub
+3. [x] Link para GitHub
 4. [ ] Link Linkedin
 5. [ ] Link Redes Sociais
    1. [ ] Facebook
