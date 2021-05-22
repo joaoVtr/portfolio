@@ -2,7 +2,7 @@
 
 ## Hi, my name is João Vitor and i'm a Web Developer
 
-- Please check my [portfolio](https://joaovtr.github.io/portifolio/) or my [github](https://github.com/joaoVtr) page for more information
+- Please check my [portfolio](https://joaovtr.github.io/portfolio/) or my [github](https://github.com/joaoVtr) page for more information
 
 
 ## Feel free to contact (or play chess) on :
