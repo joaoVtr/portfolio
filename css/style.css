@@ -1,3 +1,12 @@
+/*
+Theme Name: João Portfolio
+Theme URI: https://joaovtr.github.io/portfolio/
+Author: João Menezes 
+Author URI: https://joaovtr.github.io/portfolio/
+Description: Portfolio
+Version: 1.0
+*/
+
 body{
     color: white;
 }
@@ -191,4 +200,238 @@ header a:hover{
 /*  */
 
 
+
+/* Media Query ---------- */
+
+/*Estilo para tablets*/
+@media only screen and (min-width: 640px) and (max-width: 959px) {
+
+   /* Header */
+   header{
+    display: none;
+}
+
+/* Main information */
+.main-data{
+    min-height: 400px !important;
+}
+.main-info{
+    width: auto;
+    height: 200px;
+}
+.titulo{
+    margin-top: -20px;
+    font-size: 36px;
+    width: auto;
+}
+.subtitulo{
+    height: 200px;
+    width: auto;
+    font-size: 16px;
+}
+/* --- */
+
+/* Frameworks na tela principal */
+.data-grid{
+    margin-top: -35px;
+    display: flex;
+}
+.grid-container{
+    margin: 0 auto;
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 50px 50px 50px;
+    grid-column-gap: auto;
+}
+.grid-item{
+    background-color: red;
+    height: 120px;
+    width: 120px;
+}
+.div-frameworks{
+    background-size: 120px 120px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+}
+/* --  */
+
+/* Section information one */
+.about{
+    text-align: center;
+    width: auto;
+}
+.about-main{
+    max-width: 500px;
+    font-size: 28px;
+    font-family: Noto Sans, sans-serif;
+    line-height: 1.1;
+    margin: 0 auto;
+}
+
+.about-sub{
+    max-width: 500px;
+    font-size: 14px;
+    margin-top: 30px;
+}
+/* -- */
+
+/* empty section */
+.skills-sec{
+    height: 450px;
+}
+.skills-blur{
+    filter: blur(15px);
+    height: 480px;
+}
+.skills-bg{
+    height: 580px;
+    width: auto;
+}
+
+.skills-info h2{
+    font-size: 32px;
+    margin-top: 26px;
+}
+
+    /* Skills Grid  */
+.skills-grid{
+    height: 400px;
+    margin-top: 80px;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 10px;
+    grid-row-gap:10px;
+}
+.skills-item {
+    font-size: 10px;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+}
+
+.skills-item h3{
+    font-size:16x;
+    text-align: center;
+}
+    /* -- */
+/* -- */
+
+} /* Final do estilo para tablets */
+
+/*Estilo para smartphone*/
+@media only screen and (max-width: 640px) {
+    /* Header */
+    header{
+        display: none;
+    }
+
+    /* Main information */
+    .main-data{
+        min-height: 400px !important;
+    }
+    .main-info{
+        width: auto;
+        height: 200px;
+    }
+    .titulo{
+        margin-top: 10px;
+        font-size: 28px;
+        width: auto;
+    }
+    .subtitulo{
+        height: 200px;
+        width: auto;
+        font-size: 14px;
+        margin-top: 5px;
+    }
+    /* --- */
+
+    /* Frameworks na tela principal */
+    .data-grid{
+        margin-top: -50px;
+        display: flex;
+    }
+    .grid-container{
+        margin: 0 auto;
+        display: grid;
+        justify-items: center;
+        grid-template-columns: 1px 1px 1px;
+        grid-column-gap: auto;
+    }
+    .grid-item{
+        background-color: red;
+        height: 85px;
+        width: 85px;
+    }
+    .div-frameworks{
+        background-size: 85px 85px;
+        background-repeat: no-repeat;
+        background-position: center;
+        border-radius: 25px;
+    }
+    /* --  */
+
+    /* Section information one */
+    .about{
+        text-align: center;
+        height: 300px;
+        width: auto;
+    }
+    .about-main{
+        max-width: 300px;
+        font-size: 24px;
+        font-family: Noto Sans, sans-serif;
+        line-height: 1.1;
+        margin: 0 auto;
+    }
+
+    .about-sub{
+        max-width: 300px;
+        font-size: 12px;
+        margin-top: 30px;
+    }
+    /* -- */
+
+    /* empty section */
+    .skills-sec{
+        height: 450px;
+    }
+    .skills-blur{
+        filter: blur(15px);
+        height: 480px;
+    }
+    .skills-bg{
+        height: 580px;
+        width: auto;
+    }
+
+    .skills-info h2{
+        font-size: 28px;
+        margin-top: 20px;
+    }
+
+        /* Skills Grid  */
+    .skills-grid{
+        height: 400px;
+        margin-top: 80px;
+        grid-template-columns: auto auto auto;
+        grid-column-gap: 10px;
+        grid-row-gap:10px;
+    }
+    .skills-item {
+        font-size: 8px;
+        width: 100px;
+        height: 100px;
+        padding: 0;
+    }
+
+    .skills-item h3{
+        font-size:16px;
+        text-align: center;
+    }
+        /* -- */
+    /* -- */
+
+
+} /* Final do estilo para smartphone */
 
