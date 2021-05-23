@@ -16,10 +16,6 @@ header{
     padding: 5px 0 ;
 }
 
-#btn-mobile{
-    display: none;
-}
-
 header a:link, a:visited{
     font-weight: bold;
     color:#C7CACF ;
@@ -332,7 +328,7 @@ header a:hover{
     nav ul li{
         margin-left:5px;
     }
-    
+
     nav ul :nth-child(n+3){
         display: none;
     }
@@ -344,10 +340,7 @@ header a:hover{
         padding: 0;
         font-size: 18px;
     }
-    /* #btn-mobile{
-        display: block;
-    } */
-
+   
     /* Main information */
     .main-data{
         min-height: 500px !important;
