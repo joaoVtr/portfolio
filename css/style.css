@@ -16,9 +16,13 @@ header{
     padding: 5px 0 ;
 }
 
+#btn-mobile{
+    display: none;
+}
+
 header a:link, a:visited{
     font-weight: bold;
-    color:white;
+    color:#C7CACF ;
 }
 
 header a:hover{
@@ -206,11 +210,6 @@ header a:hover{
 /*Estilo para tablets*/
 @media only screen and (min-width: 640px) and (max-width: 959px) {
 
-   /* Header */
-   header{
-    display: none;
-}
-
 /* Main information */
 .main-data{
     min-height: 400px !important;
@@ -320,21 +319,45 @@ header a:hover{
 
 /*Estilo para smartphone*/
 @media only screen and (max-width: 640px) {
-    /* Header */
+    /* Menu Mobile */
     header{
+        padding: 0;
+    }
+    header .navbar{
+        padding: 3px 1rem;
+    }
+    nav ul{
+        font-size: 11px;
+    }
+    nav ul li{
+        margin-left:5px;
+    }
+    
+    nav ul :nth-child(n+3){
         display: none;
     }
 
+    .navbar-nav{
+        flex-direction: row;
+    }
+    .navbar-brand{
+        padding: 0;
+        font-size: 18px;
+    }
+    /* #btn-mobile{
+        display: block;
+    } */
+
     /* Main information */
     .main-data{
-        min-height: 400px !important;
+        min-height: 500px !important;
     }
     .main-info{
         width: auto;
         height: 200px;
     }
     .titulo{
-        margin-top: 10px;
+        margin-top: 70px;
         font-size: 28px;
         width: auto;
     }
@@ -342,13 +365,13 @@ header a:hover{
         height: 200px;
         width: auto;
         font-size: 14px;
-        margin-top: 5px;
+        margin-top:12px;
     }
     /* --- */
 
     /* Frameworks na tela principal */
     .data-grid{
-        margin-top: -50px;
+        margin-top: -10px;
         display: flex;
     }
     .grid-container{
