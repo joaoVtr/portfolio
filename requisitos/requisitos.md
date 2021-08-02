@@ -1,5 +1,5 @@
 # Requisitos
-1. [ ] Mudar a ocorrência de portifolio para portfolio
+1. [x] Mudar a ocorrência de portifolio para portfolio
 ## Requisitos Visuais
 1. [ ] Informações pessoais
    1. [ ] Nome
