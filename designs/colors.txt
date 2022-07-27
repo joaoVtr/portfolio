@@ -1,0 +1,9 @@
+#C7CACF -> cinza
+#76AB64 -> verde 
+
+
+https://www.color-hex.com/
+
+
+https://www.section.io/engineering-education/creating-a-responsive-navigation-bar-using-tailwind-css-and-javascript/
+https://blog.logrocket.com/building-responsive-navbar-tailwind-css/

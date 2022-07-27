@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103.553" height="189.886" viewBox="0 0 103.553 189.886">
+  <g id="teste3" transform="translate(-146 -1.665)">
+    <rect id="Retângulo_1" data-name="Retângulo 1" width="102" height="105" rx="20" transform="translate(146 47)" fill="#c1c0c5"/>
+    <g id="Jotas" transform="translate(109 -8)">
+      <text id="J_grande" data-name="J grande" transform="translate(40 154)" fill="#0a3d67" font-size="139" font-family="SourceCodePro-Regular, Source Code Pro"><tspan x="0" y="0">J</tspan></text>
+      <text id="J_grande-2" data-name="J grande" transform="matrix(0.996, -0.087, 0.087, 0.996, 50.398, 159.703)" fill="rgba(10,61,103,0.61)" font-size="145" font-family="SourceCodePro-Regular, Source Code Pro"><tspan x="0" y="0">J</tspan></text>
+    </g>
+  </g>
+</svg>

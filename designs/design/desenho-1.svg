@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="210mm"
+   height="297mm"
+   viewBox="0 0 210 297"
+   version="1.1"
+   id="svg3325"
+   inkscape:version="1.1 (c68e22c387, 2021-05-23)"
+   sodipodi:docname="desenho-1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview3327"
+     pagecolor="#28566d"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:pageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="true"
+     inkscape:document-units="mm"
+     showgrid="false"
+     borderlayer="false"
+     inkscape:zoom="0.46324355"
+     inkscape:cx="212.63113"
+     inkscape:cy="173.77468"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs3322">
+    <rect
+       x="296.88977"
+       y="28.238873"
+       width="64.491479"
+       height="48.464011"
+       id="rect77656" />
+    <rect
+       x="329.32631"
+       y="143.86561"
+       width="196.14568"
+       height="113.3371"
+       id="rect32782" />
+    <rect
+       x="297.35978"
+       y="171.07632"
+       width="73.395518"
+       height="119.26772"
+       id="rect30500" />
+    <rect
+       x="226.66263"
+       y="179.17141"
+       width="160.28286"
+       height="144.63234"
+       id="rect28034" />
+    <rect
+       x="110.09328"
+       y="199.67898"
+       width="61.522711"
+       height="107.93458"
+       id="rect5270" />
+  </defs>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       transform="matrix(3.2828964,0,0,3.988919,-411.37133,-737.27457)"
+       id="text5268"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:7.1904px;line-height:1.45;font-family:Rubik;-inkscape-font-specification:Rubik;text-align:center;letter-spacing:0.02px;white-space:pre;shape-inside:url(#rect5270);fill:#c7cacf;fill-opacity:1;stroke:none;stroke-opacity:1"
+       x="19.322926"
+       y="0"><tspan
+         x="137.26727"
+         y="206.8286"
+         id="tspan92576"><tspan
+           style="font-family:'Source Sans Pro';-inkscape-font-specification:'Source Sans Pro'"
+           id="tspan92574">JV</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="matrix(0.4264648,0,0,0.4264648,-139.09188,21.614359)"
+       id="text32780"
+       style="font-size:40px;line-height:1.25;font-family:sans-serif;direction:rtl;white-space:pre;shape-inside:url(#rect32782);fill:#c7cacf;fill-opacity:1"><tspan
+         x="420.64844"
+         y="179.25586"
+         id="tspan92580"><tspan
+           style="font-family:Gabriola;-inkscape-font-specification:Gabriola"
+           id="tspan92578">Menezes</tspan></tspan></text>
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text28032"
+       style="line-height:1.25;font-family:sans-serif;font-size:40px;direction:rtl;white-space:pre;shape-inside:url(#rect28034)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text30498"
+       style="line-height:1.25;font-family:sans-serif;font-size:40px;direction:rtl;white-space:pre;shape-inside:url(#rect30500)" />
+    <text
+       xml:space="preserve"
+       transform="scale(0.26458333)"
+       id="text77654"
+       style="line-height:1.25;font-family:sans-serif;font-size:40px;direction:rtl;white-space:pre;shape-inside:url(#rect77656)" />
+    <text
+       xml:space="preserve"
+       style="font-size:10.5833px;line-height:1.25;font-family:sans-serif;direction:rtl;stroke-width:0.264583"
+       x="58.762615"
+       y="39.37701"
+       id="text90482"><tspan
+         sodipodi:role="line"
+         id="tspan90480"
+         style="stroke-width:0.264583"
+         x="58.762615"
+         y="39.37701" /><tspan
+         sodipodi:role="line"
+         style="stroke-width:0.264583"
+         x="58.762615"
+         y="52.606136"
+         id="tspan91516" /></text>
+  </g>
+</svg>
