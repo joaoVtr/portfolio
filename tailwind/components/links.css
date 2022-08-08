@@ -1,7 +1,7 @@
 @layer components {
   .link-1 {
-    @apply hover:text-[#76ab64] hover:transition hover:delay-[50] hover:duration-500 hover:cursor-pointer
+    @apply hover:text-verde-100 hover:transition hover:delay-[50] hover:duration-500 hover:cursor-pointer
     hover:bg-gradient-to-r hover:from-cinza-140
-    font-bold md:text-lg text-[#C7CACF] rounded-md px-1.5;
+    font-bold md:text-lg text-cinza-100 rounded-md py-0.5 px-1.5;
   }
 }

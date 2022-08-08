@@ -13,7 +13,7 @@
   </head>
   <body class="h-full">
     <!-- header -->
-    <header class="bg-cinza-110 md:h-20">
+    <header class="bg-cinza-110 md:h-16">
       <div
         x-data="{ open: false }"
         class="container max-w-6xl flex flex-col p-4 md:flex-row h-full mx-auto"
@@ -76,24 +76,43 @@
     <!-- /header -->
     <!-- Main -->
     <main
-      class="bg-[url('../designs/img/bg-1-7.jpg')] h-[calc(100vh-5rem)] bg-cover"
+      class="bg-[url('../designs/img/bg-1-7.jpg')] h-[calc(100vh-4rem)] bg-cover"
     >
-      <div
-        class="text-7xl text-center py-10 font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500"
-        x-data="{
-          text: '',
-          textArray : ['João Vitor Menezes de Jesus'],
-          textIndex: 0,
-          charIndex: 0,
-          typeSpeed: 200,
-       }"
-        x-init="setInterval(function(){
-          let current = $data.textArray[ $data.textIndex ];
-          $data.text = current.substring(0, $data.charIndex);
-          $data.charIndex += 1;
-       }, $data.typeSpeed);"
-      >
-        <h1 x-text="text"></h1>
+      <div class="text-center h-full pt-20 md:pt-28">
+        <div
+          class="md:text-7xl mx-8 md:mx-0 text-6xl 2xl:text-8xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500"
+          x-data="{
+            text: '',
+            textArray : ['Full Stack Web Dev'],
+            textIndex: 0,
+            charIndex: 0,
+            typeSpeed: 160,
+         }"
+          x-init="setInterval(function(){
+            let current = $data.textArray[ $data.textIndex ];
+            $data.text = current.substring(0, $data.charIndex);
+            $data.charIndex += 1;
+         }, $data.typeSpeed);"
+        >
+          <h1
+            class="font-['Fixedsys'] ease-in duration-150 delay-75"
+            x-text="text"
+          ></h1>
+        </div>
+        <div
+          class="text-cinza-100 mx-16 pt-2 md:pt-0 md:mx-0"
+          x-data="{
+              text : ''
+            }"
+          x-init="setInterval(function(){
+            $data.text = 'Simple code, simple frameworks and great results'
+          }, 160 * 20)"
+        >
+          <h1
+            class="ease-in duration-500 delay-150 font-sans text-sm md:text-base font-medium"
+            x-text="text"
+          ></h1>
+        </div>
       </div>
     </main>
     <!-- /Main -->
