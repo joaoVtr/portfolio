@@ -78,9 +78,9 @@
     <main
       class="bg-[url('../designs/img/bg-1-7.jpg')] h-[calc(100vh-4rem)] bg-cover"
     >
-      <div class="text-center h-full pt-20 md:pt-28">
+      <div class="text-center h-full pt-16 2xl:pt-44 md:pt-24">
         <div
-          class="md:text-7xl mx-8 md:mx-0 text-6xl 2xl:text-8xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500"
+          class="md:text-7xl mx-8 md:mx-0 text-6xl 2xl:text-7xl text-center font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-800 to-green-500"
           x-data="{
             text: '',
             textArray : ['Full Stack Web Dev'],
@@ -100,7 +100,7 @@
           ></h1>
         </div>
         <div
-          class="text-cinza-100 mx-16 pt-2 md:pt-0 md:mx-0"
+          class="text-cinza-100 mx-16 pt-2 md:pt-0.5 md:mx-0"
           x-data="{
               text : ''
             }"
@@ -112,6 +112,24 @@
             class="ease-in duration-500 delay-150 font-sans text-sm md:text-base font-medium"
             x-text="text"
           ></h1>
+        </div>
+        <div class="mt-10 2xl:mt-14 flex justify-center">
+          <!-- Ajustar altura da linha para as telas -->
+          <svg width="6" height="200" class="stroke-cinza-100/90 stroke-2">
+            <line x1="3" y1="0" x2="3" y2="200" />
+            Sorry, your browser does not support inline SVG.
+          </svg>
+        </div>
+        <div class="2xl:mt-20 mt-10">
+          <button
+            class="group border bg-cinza-100/60 hover:bg-cinza-100/80 px-5 py-3 rounded-lg hover:animate-none delay-75 duration-150 hover:transition hover:delay-100 hover:duration-200"
+          >
+            <span
+              class="font-bold text-lg font-sans text-cinza-140 group-hover:text-green-800 group-hover:delay-150 group-hover:duration-300 delay-75 duration-150"
+            >
+              GitHub
+            </span>
+          </button>
         </div>
       </div>
     </main>
